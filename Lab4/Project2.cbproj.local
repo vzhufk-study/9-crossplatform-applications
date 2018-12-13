@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.330,D:\Teacher\CrossPlatform\Projects\Unit1.dfm=D:\Teacher\CrossPlatform\Labs\Lab4\Unit1.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.524,D:\Teacher\CrossPlatform\Projects\Project2PCH1.h=D:\Teacher\CrossPlatform\Labs\Lab4\Project2PCH1.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.706,=D:\Teacher\CrossPlatform\Projects\Project2PCH1.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.330,D:\Teacher\CrossPlatform\Projects\Unit1.cpp=D:\Teacher\CrossPlatform\Labs\Lab4\Unit1.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.330,D:\Teacher\CrossPlatform\Projects\Unit1.h=D:\Teacher\CrossPlatform\Labs\Lab4\Unit1.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.154,D:\Teacher\CrossPlatform\Projects\Project2.cbproj=D:\Teacher\CrossPlatform\Labs\Lab4\Project2.cbproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.187,=D:\Teacher\CrossPlatform\Projects\Unit1.cpp</Transaction>
+  </Transactions>
+</BorlandProject>
