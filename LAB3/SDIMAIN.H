@@ -22,42 +22,8 @@
 class TSDIAppForm : public TForm
 {
 __published:
-    TOpenDialog *OpenDialog;
-    TSaveDialog *SaveDialog;
-    TToolBar *ToolBar1;
-    TToolButton *ToolButton9;
-    TToolButton *ToolButton1;
-    TToolButton *ToolButton2;
-    TToolButton *ToolButton3;
-    TToolButton *ToolButton4;
-    TToolButton *ToolButton5;
-    TToolButton *ToolButton6;
-    TActionList *ActionList1;
-    TAction *FileNew1;
-    TAction *FileOpen1;
-    TAction *FileSave1;
-    TAction *FileSaveAs1;
-    TAction *FileExit1;
-    TEditCut *EditCut1;
-    TEditCopy *EditCopy1;
-    TEditPaste *EditPaste1;
-    TAction *HelpAbout1;
-    TStatusBar *StatusBar;
-    TImageList *ImageList1;
-    TMainMenu *MainMenu1;
-    TMenuItem *File1;
-    TMenuItem *FileNewItem;
-    TMenuItem *FileOpenItem;
-    TMenuItem *FileSaveItem;
-    TMenuItem *FileSaveAsItem;
-    TMenuItem *N1;
-    TMenuItem *FileExitItem;
-    TMenuItem *Edit1;
-    TMenuItem *CutItem;
-    TMenuItem *CopyItem;
-    TMenuItem *PasteItem;
-    TMenuItem *Help1;
-    TMenuItem *HelpAboutItem;void __fastcall FileNew1Execute(TObject *Sender);
+	TStatusBar *StatusBar1;
+	TToolBar *ToolBar1;void __fastcall FileNew1Execute(TObject *Sender);
         void __fastcall FileOpen1Execute(TObject *Sender);
         void __fastcall FileSave1Execute(TObject *Sender);
         void __fastcall FileExit1Execute(TObject *Sender);

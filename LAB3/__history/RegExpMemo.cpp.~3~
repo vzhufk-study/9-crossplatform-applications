@@ -1,0 +1,46 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+
+#pragma hdrstop
+
+#include "RegExpMemo.h"
+#pragma package(smart_init)
+//---------------------------------------------------------------------------
+// ValidCtrCheck is used to assure that the components created do not have
+// any pure virtual functions.
+//
+
+static inline void ValidCtrCheck(RegExpMemo *)
+{
+	new RegExpMemo(NULL);
+}
+//---------------------------------------------------------------------------
+__fastcall RegExpMemo::RegExpMemo(TComponent* Owner)
+	: TMemo(Owner)
+{
+
+}
+//---------------------------------------------------------------------------
+namespace Regexpmemo
+{
+	void __fastcall PACKAGE Register()
+	{
+		TComponentClass classes[1] = {__classid(RegExpMemo)};
+		RegisterComponents(L"Samples", classes, 0);
+	}
+}
+//---------------------------------------------------------------------------
+
+//---------------------------------------------------------------------------
+void __fastcall RegExpMemo::WriteSearchStart(int value){
+	this->start = value;
+}
+
+void __fastcall RegExpMemo::WritePattern (String value){
+	this->pattern = value;
+}
+
+void __fastcall RegExpMemo::WriteColor (Color value){
+	this->select = value;
+}
