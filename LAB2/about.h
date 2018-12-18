@@ -17,10 +17,11 @@ class TAboutBox : public TForm
 __published:
 	TPanel *Panel1;
 	TButton *OKButton;
-	TImage *ProgramIcon;
 	TLabel *ProductName;
 	TLabel *Version;
-	TLabel *Copyright;
+	TLabel *Label1;
+	TLabel *Label2;
+	TLabel *Label3;
 	TLabel *Comments;
 private:
 public:

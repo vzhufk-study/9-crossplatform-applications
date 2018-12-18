@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2018-12-17 19:29:40.483,=C:\Users\vzhufk\Documents\Embarcadero\Studio\Projects\LAB2\Unit1.cpp</Transaction>
+    <Transaction>2018-12-17 20:09:54.039,C:\Users\vzhufk\Documents\Embarcadero\Studio\Projects\LAB2\MAIN.CPP=C:\Users\vzhufk\Documents\Embarcadero\Studio\Projects\LAB2\SDIMAIN.CPP</Transaction>
+    <Transaction>2018-12-17 20:09:54.039,C:\Users\vzhufk\Documents\Embarcadero\Studio\Projects\LAB2\MAIN.h=C:\Users\vzhufk\Documents\Embarcadero\Studio\Projects\LAB2\SDIMAIN.h</Transaction>
+    <Transaction>2018-12-17 20:09:54.039,C:\Users\vzhufk\Documents\Embarcadero\Studio\Projects\LAB2\MAIN.dfm=C:\Users\vzhufk\Documents\Embarcadero\Studio\Projects\LAB2\SDIMAIN.dfm</Transaction>
+    <Transaction>2018-12-17 20:09:54.051,C:\Users\vzhufk\Documents\Embarcadero\Studio\Projects\LAB2\SDIMAIN.CPP=C:\Users\vzhufk\Documents\Embarcadero\Studio\Projects\LAB2\MAIN.CPP</Transaction>
+    <Transaction>2018-12-17 20:09:54.051,C:\Users\vzhufk\Documents\Embarcadero\Studio\Projects\LAB2\SDIMAIN.h=C:\Users\vzhufk\Documents\Embarcadero\Studio\Projects\LAB2\MAIN.h</Transaction>
+    <Transaction>2018-12-17 20:09:54.051,C:\Users\vzhufk\Documents\Embarcadero\Studio\Projects\LAB2\SDIMAIN.dfm=C:\Users\vzhufk\Documents\Embarcadero\Studio\Projects\LAB2\MAIN.dfm</Transaction>
+    <Transaction>2018-12-17 20:10:17.516,=C:\Users\vzhufk\Documents\Embarcadero\Studio\Projects\LAB2\New1.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

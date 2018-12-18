@@ -26,10 +26,16 @@ void __fastcall TMainForm::CreateMDIChild(String Name)
 		Child->Memo1->Lines->LoadFromFile(Name);
 }
 //---------------------------------------------------------------------------
+void __fastcall TMainForm::CreateChildForm( const AnsiString childName )
+{
+  TMDIChild *Child = new TMDIChild( Application );
+  Child->Caption = childName;
+}
+
 
 void __fastcall TMainForm::FileNew1Execute(TObject *Sender)
 {
-	CreateMDIChild("NONAME" + IntToStr(MDIChildCount + 1));
+	CreateChildForm("GraphTree" + IntToStr(MDIChildCount + 1));
 }
 //---------------------------------------------------------------------------
 
@@ -51,4 +57,6 @@ void __fastcall TMainForm::FileExit1Execute(TObject *Sender)
 	Close();
 }
 //---------------------------------------------------------------------------
+
+
 

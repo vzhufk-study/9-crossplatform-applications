@@ -21,6 +21,8 @@
 #include <Vcl.ImgList.hpp>
 #include <Vcl.StdActns.hpp>
 #include <Vcl.ToolWin.hpp>
+#include <System.Actions.hpp>
+#include <System.ImageList.hpp>
 //----------------------------------------------------------------------------
 class TMainForm : public TForm
 {
@@ -81,6 +83,7 @@ __published:
 	void __fastcall FileOpen1Execute(TObject *Sender);
 	void __fastcall HelpAbout1Execute(TObject *Sender);
 	void __fastcall FileExit1Execute(TObject *Sender);
+    void __fastcall CreateChildForm( const AnsiString childName );
 private:
 	void __fastcall CreateMDIChild(const String Name);
 public:
